@@ -92,12 +92,12 @@ const handleDelete = async (productId) => {
 
 
     return (
-        <div className="container mx-auto mt-8">
-           <h1 className="text-3xl font-bold mb-6 text-center text-gray-900">Admin Dashboard</h1>
+        <div className="container mx-auto mt-8" style={{color: '#ffffff',  backgroundColor: '#1e1e1e'}}>
+           <h1 className="text-3xl font-bold mb-6 text-center text-white">Admin Dashboard</h1>
            <div className="mb-6 flex justify-end">
              <button
                  onClick={()=> handleProductAddOpen()}
-                    className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
+                    className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out"
                 >
                  Add Product
              </button>
@@ -127,7 +127,7 @@ const handleDelete = async (productId) => {
 
            {formLoading ? (
                 <div className="flex items-center justify-center mt-2">
-                    <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500 border-opacity-50"></div>
+                    <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-red-500 border-opacity-50"></div>
                  </div>
             ):null
             }

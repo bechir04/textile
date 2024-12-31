@@ -6,7 +6,17 @@ export const fetchProducts = async () => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
-        return await response.json();
+        const products = await response.json();
+        // Add related products to each product
+       const productsWithRelated = products.map((product) => ({
+        ...product,
+            relatedProducts:[
+               products[Math.floor(Math.random() * products.length)],
+              products[Math.floor(Math.random() * products.length)],
+              products[Math.floor(Math.random() * products.length)],
+          ]
+        }));
+      return productsWithRelated;
      } catch (error) {
         console.error("Failed to fetch products:", error);
         throw error;

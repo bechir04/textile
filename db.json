@@ -1,31 +1,23 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Classic Training Tee",
-      "category": "T-Shirts",
-      "price": 28,
-      "description": "A comfortable and versatile tee for all types of training sessions.",
-      "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=ClassicTrainingTee"
-    },
-    {
-      "id": 2,
+      "id": "2",
       "name": "Performance Fleece Hoodie",
       "category": "Hoodies",
       "price": 65,
       "description": "Keep warm and focused with this high-performance fleece hoodie.",
-       "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=PerformanceHoodie"
+      "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=PerformanceHoodie"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Lightweight Running Pants",
       "category": "Pants",
       "price": 55,
       "description": "Ultra-lightweight pants designed for maximum speed and comfort.",
-       "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=LightweightPants"
+      "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=LightweightPants"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Water-Resistant Windbreaker",
       "category": "Jackets",
       "price": 95,
@@ -33,68 +25,68 @@
       "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=Windbreaker"
     },
     {
-      "id": 5,
-        "name": "Essential Athletic Tank Top",
-        "category": "T-Shirts",
+      "id": "5",
+      "name": "Essential Athletic Tank Top",
+      "category": "T-Shirts",
       "price": 22,
       "description": "Perfect for layering, this tank top is great for workouts or casual wear.",
       "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=TankTop"
     },
     {
-        "id": 6,
-        "name": "Zip-Up Training Hoodie",
-        "category": "Hoodies",
-        "price": 70,
-       "description": "A classic zip-up hoodie with a sleek design and comfortable fit.",
-        "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=ZipUpHoodie"
-     },
-   {
-       "id": 7,
-     "name": "Slim Fit Training Joggers",
-        "category": "Pants",
-         "price": 60,
+      "id": "6",
+      "name": "Zip-Up Training Hoodie",
+      "category": "Hoodies",
+      "price": 70,
+      "description": "A classic zip-up hoodie with a sleek design and comfortable fit.",
+      "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=ZipUpHoodie"
+    },
+    {
+      "id": "7",
+      "name": "Slim Fit Training Joggers",
+      "category": "Pants",
+      "price": 60,
       "description": "Slim-fit joggers with a tapered leg for a modern, sporty look.",
-         "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=Joggers"
-      },
-       {
-         "id": 8,
+      "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=Joggers"
+    },
+    {
+      "id": "8",
       "name": "Insulated Winter Jacket",
       "category": "Jackets",
-         "price": 120,
+      "price": 120,
       "description": "Stay incredibly warm in the coldest weather with this insulated winter jacket.",
-       "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=WinterJacket"
-     },
-      {
-         "id": 9,
-        "name": "Long Sleeve Training Shirt",
-         "category": "T-Shirts",
-        "price": 35,
-       "description": "A long-sleeved option for colder training days.",
-         "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=LongSleeveTee"
-       },
-        {
-       "id": 10,
+      "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=WinterJacket"
+    },
+    {
+      "id": "9",
+      "name": "Long Sleeve Training Shirt",
+      "category": "T-Shirts",
+      "price": 35,
+      "description": "A long-sleeved option for colder training days.",
+      "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=LongSleeveTee"
+    },
+    {
+      "id": "10",
       "name": "Lightweight Pullover Hoodie",
-       "category": "Hoodies",
-         "price": 50,
-        "description": "A lightweight and breathable pullover hoodie, great for layering.",
-        "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=PulloverHoodie"
-      },
-       {
-         "id": 11,
-     "name": "Track Training Pants",
-         "category": "Pants",
-       "price": 60,
-     "description": "Classic track pants with a comfortable fit and stylish design.",
-       "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=TrackPants"
-      },
-        {
-       "id": 12,
-        "name": "Quilted Padded Jacket",
-          "category": "Jackets",
+      "category": "Hoodies",
+      "price": 50,
+      "description": "A lightweight and breathable pullover hoodie, great for layering.",
+      "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=PulloverHoodie"
+    },
+    {
+      "id": "11",
+      "name": "Track Training Pants",
+      "category": "Pants",
+      "price": 60,
+      "description": "Classic track pants with a comfortable fit and stylish design.",
+      "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=TrackPants"
+    },
+    {
+      "id": "12",
+      "name": "Quilted Padded Jacket",
+      "category": "Jackets",
       "price": 150,
-     "description": "A stylish and comfortable padded jacket for all occasions.",
-          "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=PaddedJacket"
-      }
+      "description": "A stylish and comfortable padded jacket for all occasions.",
+      "imageUrl": "https://placehold.co/300x300/808080/FFFFFF?text=PaddedJacket"
+    }
   ]
 }

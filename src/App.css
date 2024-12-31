@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 40s linear;
   }
 }
 
@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.discount-text-container {
+     display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 50%;
+  }
+ .discount-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+     white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden;
+    animation: moveText 10s linear infinite;
+     
+  }
+
+    @keyframes moveText {
+        0% {
+          transform: translateX(-100%);
+        }
+         100% {
+            transform: translateX(100%);
+        }
+  }

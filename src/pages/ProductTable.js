@@ -14,16 +14,16 @@ function ProductTable({ products, onEdit, onDelete }) {
                       </tr>
                </thead>
                   <tbody className="bg-white divide-y divide-gray-200">
-                        {products.map(product => (
-                         <tr key={product.id}>
-                               <td className="px-6 py-4 whitespace-nowrap">{product.id}</td>
-                             <td className="px-6 py-4 whitespace-nowrap">{product.name}</td>
-                           <td className="px-6 py-4 whitespace-nowrap">{product.category}</td>
-                         <td className="px-6 py-4 whitespace-nowrap">{product.price}</td>
+                        {products.map((product,index) => (
+                         <tr key={product.id}  style={{backgroundColor: index%2===0 ? '#f9f9f9' :'#ffffff' }} >
+                               <td className="px-6 py-4 whitespace-nowrap text-white">{product.id}</td>
+                             <td className="px-6 py-4 whitespace-nowrap text-white">{product.name}</td>
+                           <td className="px-6 py-4 whitespace-nowrap text-white">{product.category}</td>
+                         <td className="px-6 py-4 whitespace-nowrap text-white">${product.price}</td>
                          <td className="px-6 py-4 whitespace-nowrap flex gap-2">
                                 <button
                                     onClick={() => onEdit(product)}
-                                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded focus:outline-none focus:shadow-outline"
+                                    className="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-3 rounded focus:outline-none focus:shadow-outline"
                                >
                                     Edit
                                  </button>
